@@ -54,3 +54,4 @@ type: web
 channel: stable
 repo: mainsail-crew/mainsail
 path: ~/mainsail
+
