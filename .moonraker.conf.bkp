@@ -55,6 +55,9 @@ channel = stable
 repo = mainsail-crew/mainsail
 path = ~/mainsail
 
+[file_manager]
+enable_object_processing = True
+
 [update_manager crowsnest]
 type = git_repo
 path = ~/crowsnest
