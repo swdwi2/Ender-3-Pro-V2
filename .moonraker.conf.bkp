@@ -66,3 +66,18 @@ origin = https://github.com/kyleisah/Klipper-Adaptive-Meshing-Purging.git
 managed_services = klipper
 primary_branch = main
 
+[update_manager octoeverywhere]
+type = git_repo
+channel = beta
+path = /home/swdwi2/octoeverywhere
+origin = https://github.com/QuinnDamerell/OctoPrint-OctoEverywhere.git
+env = /home/swdwi2/octoeverywhere-env/bin/python
+requirements = requirements.txt
+install_script = install.sh
+managed_services = 
+	octoeverywhere
+
+[announcements]
+subscriptions = 
+	octoeverywhere
+
